@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let add = (...values) => {
+    let total = 0;
+    for(let i of values) {
+      total+=i;
+    }
+    console.log(`总和:${total}`);
+  };
+  add(1,2,4);
+</script>
+</body>
+</html>
